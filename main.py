@@ -1,4 +1,5 @@
 # GUIwinget python source file , by alireza138812
+
 # importing modules
 import os
 try:
@@ -40,11 +41,9 @@ enter.pack()
 
 # Buttons
 
-Install = Button(window, text="Install",
-                 command=app.installappname).place(x=5, y=50)
+Install = Button(window, text="Install", command=app.installappname).place(x=5, y=50)
+Installid = Button(window, text="Install with ID", command=app.installappid).place(x=160, y=50)
 
-Installid = Button(window, text="Install with ID",
-                   command=app.installappid).place(x=160, y=50)
 # Main loop
 
 window.mainloop()
