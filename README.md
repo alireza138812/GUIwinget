@@ -1,15 +1,6 @@
 # GUIwinget
 
 A GUI for winget
-
-Using : download release file , you can create a shortcut on your desktop
-
-Compiling : this program is created with python so it does not need any compiletion but to convert your eddited or not eddited source to a exe file do this :
-
-You need python pip installed , compile.sh will be install pyinstaller with pip
-
-git clone https://github.com/alireza138812/GUIwinget.git
-
-cd GUIwinget
-
-bash ./compile.sh
+winget is a package manager for windows that microsoft store use in windows 10 21h1 and 21h2 and windows 11 so you most have latest version of windows 11 or windows 10
+ # Install
+ Just download exe file from release section
