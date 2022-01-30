@@ -15,6 +15,7 @@ finally:
 class app():
 
     def installappname():
+
         installing(enter.get())
         name = enter.get()
         os.system(f"winget install --name {name}")
